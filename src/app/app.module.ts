@@ -14,6 +14,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
@@ -35,6 +37,7 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatButtonModule,
     HttpClientModule,
     MatBadgeModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
