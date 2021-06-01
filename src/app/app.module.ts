@@ -13,6 +13,8 @@ import { ReadAllComponent } from './components/read-all/read-all.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatBadgeModule} from '@angular/material/badge';
+
 
 
 
@@ -32,6 +34,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatButtonModule,
     HttpClientModule,
+    MatBadgeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
