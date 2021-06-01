@@ -1,5 +1,5 @@
 form {
-width: 85%;
+width: 75%;
 margin: 2rem auto 0 auto;
 text-align: center;
 }
@@ -19,8 +19,9 @@ h1 {
     width: 100%;
 }
 
-.butons{
+.buttons{
     width: 100%;
+    text-align: start;
     
 }
 
@@ -28,4 +29,5 @@ button {
     margin-right: .5rem;
     padding-right: 2rem;
     padding-left: 2rem;
+    
 }
